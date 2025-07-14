@@ -1,7 +1,7 @@
 package com.appsdeveloperblog.orders.saga;
 
 import com.appsdeveloperblog.core.dto.events.OrderCreatedEvent;
-import com.appsdeveloperblog.core.dto.events.commands.ReserveProductCommand;
+import com.appsdeveloperblog.core.dto.commands.ReserveProductCommand;
 import com.appsdeveloperblog.core.types.OrderStatus;
 import com.appsdeveloperblog.orders.service.OrderHistoryService;
 import org.springframework.beans.factory.annotation.Value;

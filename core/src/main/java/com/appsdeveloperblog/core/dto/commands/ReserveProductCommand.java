@@ -1,4 +1,4 @@
-package com.appsdeveloperblog.core.dto.events.commands;
+package com.appsdeveloperblog.core.dto.commands;
 
 import java.util.UUID;
 

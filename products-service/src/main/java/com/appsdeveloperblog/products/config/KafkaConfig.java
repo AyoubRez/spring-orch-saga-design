@@ -23,7 +23,7 @@ public class KafkaConfig {
     }
 
     @Bean
-    NewTopic productEventsTopic() {
+    NewTopic createProductEventsTopic() {
         return TopicBuilder.name(productEventsTopicName)
                 .partitions(TOPIC_NUM_PARTITIONS)
                 .replicas(TOPIC_REPLICATION_FACTOR)
